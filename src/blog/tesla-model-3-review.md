@@ -4,6 +4,7 @@ layout: blog.njk
 pin: true
 tags: blog
 date: 2020-06-22
+image: https://gbstatic.djyde.com/uPic/biUOv6.JPG?x-oss-process=style/80
 ---
 ![题图-特斯拉侧脸](https://gbstatic.djyde.com/uPic/biUOv6.JPG?x-oss-process=style/80)
 
