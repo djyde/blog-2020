@@ -1,11 +1,13 @@
+console.log(process.env.PURGE)
+
 module.exports = {
   plugins: [
     require('autoprefixer'),
     require('tailwindcss')({
-      purge: process.env.NODE_ENV === 'minify' ? [
+      purge: [
         './src/**/*.njk',
         './src/**/*.pcss'
-      ] : [],
+      ],
       theme: {
         extend: {
           spacing: {

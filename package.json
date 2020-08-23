@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "dev": "eleventy --input=./src --serve ",
-    "build": "eleventy --input=./src",
+    "dev": "npm run eleventy -- --serve ",
+    "eleventy": "eleventy --input=./src",
     "css": "postcss -c postcss.config.js -o src/assets/index.css src/assets/**/*.pcss",
     "dev:css": "npm run css -- -w",
-    "build:css": "npm run css"
+    "build:css": "NODE_ENV=production npm run css",
+    "build": "rm -rf _site && npm run build:css && npm run eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
