@@ -1,7 +1,8 @@
 ---
 title: 为了你爱的人，读一读《非暴力沟通》
+layout: blog.njk
 tags: blog
-date: 2019-12
+date: 2019-12-25
 pin: true
 --- 
 

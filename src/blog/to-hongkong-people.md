@@ -1,7 +1,8 @@
 ---
 title: 井底之蛙的一片天空
+layout: blog.njk
 tags: blog
-date: 2019-06
+date: 2019-06-17
 # cover https://gbstatic.djyde.com/cover/bady-qb-c4XoMGxfsVU-unsplash.jpg?x-oss-process=style/cover
 categories:
   - Thinking

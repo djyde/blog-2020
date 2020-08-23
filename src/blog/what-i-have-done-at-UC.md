@@ -1,6 +1,7 @@
 ---
 title: 我在 UC 做的前端工程化探索
-date: 2019-09
+layout: blog.njk
+date: 2019-09-27
 tags: blog
 categories:
   - Coding

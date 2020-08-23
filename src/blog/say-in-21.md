@@ -1,5 +1,6 @@
 ---
 title: 21 岁我想说的
+layout: blog.njk
 date: 2016-03-25
 tags: blog
 categories:

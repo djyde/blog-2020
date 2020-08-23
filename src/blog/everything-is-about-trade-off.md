@@ -1,6 +1,7 @@
 ---
 title: 人生是不断取舍的过程
-date: 2019-04
+layout: blog.njk
+date: 2019-04-03
 tags: blog
 # cover https://gbstatic.djyde.com/cover/keenan-constance-VTLcvV6UVaI-unsplash.jpg?x-oss-process=style/cover
 categories:

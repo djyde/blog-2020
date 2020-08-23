@@ -1,7 +1,8 @@
 ---
 title: 我在学校学到的东西
+layout: blog.njk
 tags: blog
-date: 2018-10
+date: 2018-10-04
 categories:
   - Thinking
 # cover https://gbstatic.djyde.com/cover/neonbrand-zFSo6bnZJTw-unsplash.jpg?x-oss-process=style/cover

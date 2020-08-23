@@ -1,11 +1,19 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Randy's Blog{{ "- {{ title }}" if title }}</title>
+  {% if title %}
+    <title> {{title}} - Randy's Blog</title>
+  {% else %}
+    <title>Randy's Blog</title>
+  {% endif %}
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Noto+Serif+SC:wght@500;900&display=swap" rel="stylesheet">
   <link href="/assets/index.css" rel="stylesheet">
+
+  {% block head %}
+  {% endblock %}
   
 </head>
 

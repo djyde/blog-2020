@@ -1,6 +1,7 @@
 ---
 title: 本博客的赞助渠道
-date: 2019-01
+layout: blog.njk
+date: 2019-01-10
 tags: blog
 hide: true
 ---

@@ -1,7 +1,8 @@
 ---
 title: 11 寸 iPad Pro 体验
+layout: blog.njk
 tags: blog
-date: 2019-04
+date: 2019-04-06
 categories:
   - Reviews
 cover: https://gbstatic.djyde.com/FullSizeRender.jpg?x-oss-process=style/cover

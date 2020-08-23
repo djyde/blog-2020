@@ -1,6 +1,7 @@
 ---
 title: 从 React 谈 Web UI 开发
-date: 2017-01
+layout: blog.njk
+date: 2017-01-01
 tags: blog
 categories:
   - Coding

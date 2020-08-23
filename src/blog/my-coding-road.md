@@ -1,6 +1,7 @@
 ---
 title: 我的编程经历
-date: 2017-05
+layout: blog.njk
+date: 2017-05-12
 tags: blog
 categories:
   - Coding

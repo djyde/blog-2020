@@ -1,7 +1,8 @@
 ---
 title: 高效的 GraphQL + Ant.Design
+layout: blog.njk
 tags: blog
-date: 2018-09
+date: 2018-09-12
 pin: true
 ---
 

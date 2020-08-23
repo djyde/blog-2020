@@ -17,3 +17,58 @@ html {
 p {
   @apply mb-2;
 }
+
+.blog-post h1, h2, h3 {
+  @apply text-red-900 mb-2 font-bold;
+}
+
+.blog-post {
+  @apply leading-relaxed
+}
+
+.blog-post img {
+  display: block;
+  @apply mb-4;
+}
+
+.blog-post a {
+  display: inline-block;
+  position: relative;
+}
+
+.blog-post a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  left: 4px;
+  @apply bg-red-900 bg-opacity-25 w-full h-2;
+}
+
+.blog-post ul, ol {
+  @apply mb-2;
+}
+
+.blog-post ol {
+  @apply list-decimal;
+}
+
+.blog-post ul {
+  @apply list-disc;
+}
+
+.blog-post img {
+  @apply max-w-full;
+}
+
+.blog-post li {
+  @apply mb-2;
+}
+
+blockquote {
+  @apply border-l-4 pl-4 border-red-900 text-gray-700 my-4;
+}
+
+iframe {
+  width: 100%;
+}

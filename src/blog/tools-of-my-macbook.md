@@ -1,5 +1,6 @@
 ---
 title: 我常用的 macOS 应用
+layout: blog.njk
 tags: blog
 date: 2016-08-06
 categories:

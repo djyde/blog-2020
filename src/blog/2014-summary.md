@@ -1,5 +1,6 @@
 ---
 title: 2014 年终总结
+layout: blog.njk
 tags: blog
 date: 2014-12-31
 categories:

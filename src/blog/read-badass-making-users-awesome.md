@@ -1,7 +1,8 @@
 ---
 title: "好产品帮助用户变得更好 - 读 Badass: Making Users Awesome"
+layout: blog.njk
 tags: blog
-date: 2020-03
+date: 2020-03-01
 cover: https://gbstatic.djyde.com/IMG_0418.JPG?x-oss-process=style/80
 pin: true
 ---

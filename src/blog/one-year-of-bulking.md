@@ -1,7 +1,8 @@
 ---
 title: 健身一年
+layout: blog.njk
 tags: blog
-date: 2019-01
+date: 2019-01-14
 # cover https://s2.ax1x.com/2019/05/07/EsOH9s.jpg
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 2018 年终总结
-date: 2019-01
+layout: blog.njk
+date: 2019-01-07
 tags: blog
 categories:
   - Life

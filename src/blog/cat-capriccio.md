@@ -1,6 +1,7 @@
 ---
 title: 养猫随想
-date: 2017-08
+layout: blog.njk
+date: 2017-08-20
 tags: blog
 categories:
   - Life

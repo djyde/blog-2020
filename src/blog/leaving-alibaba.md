@@ -1,13 +1,12 @@
 ---
 title: 离开阿里巴巴
+layout: blog.njk
 date: 2020-05-17
 tags: blog
 pin: true
 ---
 
 ![西湖](https://gbstatic.djyde.com/uPic/jMN3dI.jpg?x-oss-process=style/80)
-
-<br />
 
 这个月我将离开阿里巴巴，结束至今 4 年的阿里生涯。
 

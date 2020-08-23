@@ -1,5 +1,6 @@
 ---
 title: 我学五笔的经历
+layout: blog.njk
 tags: blog
 categories:
   - Life

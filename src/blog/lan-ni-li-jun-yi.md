@@ -1,5 +1,6 @@
 ---
 title: 《烂泥》李峻一
+layout: blog.njk
 date: 2016-06-16
 tags: blog
 ---

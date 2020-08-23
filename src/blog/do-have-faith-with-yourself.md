@@ -1,9 +1,10 @@
 ---
 title: 做技术要自信
+layout: blog.njk
 tags: blog
 categories:
   - Thinking
-date: 2017-03
+date: 2017-03-14
 # cover https://gbstatic.djyde.com/cover/kobu-agency-67L18R4tW_w-unsplash.jpg?x-oss-process=style/cover
 pin: true
 ---

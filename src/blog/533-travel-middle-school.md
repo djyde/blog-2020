@@ -1,5 +1,6 @@
 ---
 title: 中山纪念中学游记
+layout: blog.njk
 date: 2016-06-09
 tags: blog
 ---

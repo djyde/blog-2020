@@ -1,5 +1,6 @@
 ---
 title: 从「后端现在已经看不懂前端了」说起
+layout: blog.njk
 date: 2020-01-07
 tags: blog
 pin: true

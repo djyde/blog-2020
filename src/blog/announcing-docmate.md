@@ -1,5 +1,6 @@
 ---
 title: Docmate - 一个可以自由部署的文档平台
+layout: blog.njk
 date: 2020-08-15
 tags: blog
 pin: true

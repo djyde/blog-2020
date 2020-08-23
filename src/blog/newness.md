@@ -1,7 +1,8 @@
 ---
 title: 爱情是愿意为你放弃寻新鲜
+layout: blog.njk
 tags: blog
-date: 2019-09
+date: 2019-09-16
 # cover https://gbstatic.djyde.com/cover/AAAABT4QF9hCG8i7wl7n9jxl95Zzz76F74AC0qRHECq5tVPy9EnjydEPgXZh6P5t8hppG5wd5_T51MjzuIhqVm4_eyCRVxdGNRw3bw.jpg
 ---
 

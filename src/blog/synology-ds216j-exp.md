@@ -1,7 +1,8 @@
 ---
 title: 群晖 DS216j 半年体验报告
+layout: blog.njk
 tags: blog
-date: 2017-07
+date: 2017-07-11
 categories:
   - Reviews
 cover: http://cdn.sspai.com/2017/07/11/db02e0732a1a85cec28c109c44dafcf6.jpg

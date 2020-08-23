@@ -1,5 +1,6 @@
 ---
 title: 说说 React 和 Vue
+layout: blog.njk
 date: 2020-05-13
 tags: blog
 pin: true

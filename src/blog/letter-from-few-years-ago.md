@@ -1,10 +1,9 @@
 ---
 title: 来自 2014 年给未来的我的一封信
+layout: blog.njk
 tags: blog
-date: 2019-11
+date: 2019-11-05
 ---
-
-<br />
 
 ![这封信的照片](https://gbstatic.djyde.com/blog/lett.jpeg)
 

@@ -1,5 +1,6 @@
 ---
 title: 中国制造 Tesla Model 3 长续航体验
+layout: blog.njk
 pin: true
 tags: blog
 date: 2020-06-22

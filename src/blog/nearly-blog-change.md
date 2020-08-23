@@ -1,7 +1,8 @@
 ---
 title: 博客近期的变化
+layout: blog.njk
 tags: blog
-date: 2019-06
+date: 2019-06-11
 ---
 
 ### 图片 CDN 迁移到了阿里云

@@ -1,9 +1,10 @@
 ---
 title: 搭建自己的 Gitlab CI Runner
+layout: blog.njk
 tags: blog
 categories:
   - Coding
-date: 2017-04
+date: 2017-04-20
 ---
 > 假定你已经有一台可用的，可联网的机器
 

@@ -1,9 +1,10 @@
 ---
 title: 回顾了一些读者来信
+layout: blog.njk
 categories:
   - Life
 tags: blog
-date: 2019-09
+date: 2019-09-21
 cover: https://gbstatic.djyde.com/blog/Snapseed%208.jpg?x-oss-process=style/cover
 ---
 

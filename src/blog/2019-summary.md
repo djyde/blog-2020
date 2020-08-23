@@ -1,5 +1,6 @@
 ---
 title: 2019 年终总结：慢慢变成别人眼中「食古不化」的「怪人」
+layout: blog.njk
 date: 2020-01-01
 tags: blog
 ---

@@ -9,6 +9,7 @@
   "dependencies": {
     "@egoist/md-colors": "^1.2.2",
     "autoprefixer": "^9.8.6",
+    "dayjs": "^1.8.34",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.7.3"

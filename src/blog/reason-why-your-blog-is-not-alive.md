@@ -1,6 +1,7 @@
 ---
 title: 为什么无法坚持写博客
-date: 2019-11
+layout: blog.njk
+date: 2019-11-05
 tags: blog
 pin: true
 ---

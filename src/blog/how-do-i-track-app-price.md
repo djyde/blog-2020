@@ -1,5 +1,6 @@
 ---
 title: 我是如何监听 APP 价格变动的
+layout: blog.njk
 tags: blog
 date: 2016-03-16
 categories:

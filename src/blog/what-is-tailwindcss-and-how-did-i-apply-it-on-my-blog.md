@@ -1,7 +1,8 @@
 ---
 title: 博客改版及 Tailwind CSS 实践
+layout: blog.njk
 tags: blog
-date: 2019-11
+date: 2019-11-12
 pin: true
 ---
 

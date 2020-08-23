@@ -1,5 +1,6 @@
 ---
 title: 我的利器
+layout: blog.njk
 date: 2016-09-09
 tags: blog
 categories:

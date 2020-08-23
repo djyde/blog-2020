@@ -1,5 +1,6 @@
 ---
 title: 离开大学这一年
+layout: blog.njk
 tags: blog
 categories:
   - Thinking

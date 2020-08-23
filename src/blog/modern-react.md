@@ -1,9 +1,10 @@
 ---
 title: 现代的 React
+layout: blog.njk
 tags: blog
 categories:
   - Coding
-date: 2019-03
+date: 2019-03-08
 ---
 
 我一直很想写一本关于 React 的小书，因为我看到很多刚入门前端或刚开始使用 React 的开发者，对 React 有一些误解。也许是因为 JSX, 让很多人误以为 React 是一种黑魔法 —— 竟然能在 JS 文件里写 HTML! 还有很多围绕 React 的问题，像「状态管理」，就让很多人焦头烂额了。也正是因为 JSX, 让很多人依然用模板的思维去写 React.

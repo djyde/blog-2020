@@ -1,5 +1,6 @@
 ---
 title: 从博客搬迁到创造的乐趣
+layout: blog.njk
 date: 2016-06-12
 categories:
   - Thinking

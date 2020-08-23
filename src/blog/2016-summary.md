@@ -1,5 +1,6 @@
 ---
 title: 2016 年终总结
+layout: blog.njk
 date: 2016-12-28
 tags: blog
 categories:

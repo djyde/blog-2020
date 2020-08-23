@@ -1,7 +1,8 @@
 ---
 title: 一个阅读源代码的技巧
+layout: blog.njk
 tags: blog
-date: 2018-09
+date: 2018-09-14
 categories:
   - Coding
 ---

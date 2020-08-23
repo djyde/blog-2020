@@ -1,5 +1,6 @@
 ---
 title: 我看牙医的经历
+layout: blog.njk
 date: 2016-11-26
 tags: blog
 categories:

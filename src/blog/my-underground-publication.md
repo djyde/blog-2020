@@ -1,9 +1,10 @@
 ---
 title: 我的地下刊物
+layout: blog.njk
 tags: blog
 categories:
   - Life
-date: 2017-08
+date: 2017-08-25
 ---
 
 一个月前一位初中朋友 Bunny 发了一篇 [《年少的文字》](https://mp.weixin.qq.com/s/tfzlzCEQJuIQDS-Djbg8CA)，讲起了初中的我们搞地下刊物的事，让我想起了那段时间这本刊物的一些点滴。
