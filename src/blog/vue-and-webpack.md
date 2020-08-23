@@ -5,7 +5,6 @@ tags: blog
 date: 2015-08-29
 categories:
   - Coding
-pin: true
 ---
 
 **转载前请务必先联系邮箱**

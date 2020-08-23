@@ -3,7 +3,6 @@ title: 说说 React 和 Vue
 layout: blog.njk
 date: 2020-05-13
 tags: blog
-pin: true
 ---
 
 争论框架是个无聊的事情，有一天在开车的时候我突然想到选框架和选车是一样的。
