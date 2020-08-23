@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "eleventy --input=./src --serve ",
+    "css": "postcss -c postcss.config.js -o src/assets/index.css src/assets/**/*.pcss -w"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "dependencies": {
+    "@egoist/md-colors": "^1.2.2",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.7.3"
+  }
+}
