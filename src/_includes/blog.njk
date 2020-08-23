@@ -8,10 +8,8 @@
 {% endblock %}
 
 {% block body %}
-  <div class="w-container mx-auto pt-12">
-    <h1 class="text-xl logo text-red-900 mb-4">
-      <a href="/">Randy's Blog</a>
-    </h1>
+  <div class="main-container mx-auto pt-12">
+    {% include "header.njk" %}
     <div class="mb-12">
       <h2 class="text-lg tracking-wide text-gray-900 font-bold">{{ title }}</h2>
       <h3 class="text-gray-500">{% formatDate date %}</h3>
