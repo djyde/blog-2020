@@ -13,7 +13,10 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginSEO, {
     title: "Randy's Blog",
     author: 'Randy Lu',
-    twitter: 'randyloop'
+    description: `Randy is blogging about life, tech and music.`,
+    twitter: 'randyloop',
+    url: 'https://lutaonan.com',
+    image: 'https://gbstatic.djyde.com/assets/Snapseed%204.jpg?x-oss-process=style/80'
   });
 
 
