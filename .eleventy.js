@@ -1,6 +1,4 @@
-const postcss = require('postcss')
-const path = require('path')
-const fs = require('fs')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 const dayjs = require('dayjs')
 
@@ -18,4 +16,6 @@ module.exports = (eleventyConfig) => {
       return dayjs(date).format(format)
     }
   })
+
+  eleventyConfig.addPlugin(pluginRss);
 }

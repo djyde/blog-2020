@@ -5,6 +5,13 @@
     <h1 class="logo text-xl text-red-900 mb-4">Randy's Blog</h1>
     {# <img class="w-24" src="//gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80"/> #}
 
+    <section>
+      <div  class="w-32 h-32 mx-auto rounded-full bg-cover bg-center mt-8" style="background-image: url(https://gbstatic.djyde.com/assets/IMG_9051.JPG?x-oss-process=style%2F80)"}}></div>
+      <div>
+        <img class="mx-auto w-16" src="https://gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80"/>
+      </div>
+    </section>
+
     <section class='text-sm leading-relaxed mb-8'>
       <p>我叫卢涛南 (Randy Lu), 1995 年出生于广东中山。好编程，阅读，音乐，写作以及一切创造类活动。 2008 年起学习编程至今。</p>
 
@@ -15,6 +22,7 @@
       <p>做这个博客的原因是我喜欢写作和思考，我希望把我的思考和经验分享给所有人。你也可以订阅我的 Telegram 频道。</p>
 
       <p>你可以免费阅读本博客的所有内容，也欢迎您通过不同的渠道进行赞赏。最简单的赞赏方式是发送一封感谢信到我的 Email. 也可以自愿对我的内容付费，在每篇文章的下方都有付款方式。</p>
+
     </section>
 
     <h1 class="logo text-red-900 mb-2">Featuring</h1>
@@ -28,23 +36,27 @@
               <a href="{{ post.url }}">{{ post.data.title }}</li>
             {% endif %}
           {% endfor %}
-      </ul>
-    </section>
-
-
-    <h1 class="logo text-red-900 mb-2 mt-8">Posts</h1>
-
-    <section class="text-sm">
-      <ul>
-        {% for post in collections.blog | reverse %}
-          {% if post.data.pin !== true %}
-            <li class="mb-2">
-              <span class="text-gray-500 mr-2">{% formatDate post.date %}</span>
-
-              <a href="{{ post.url }}">{{ post.data.title }}</li>
-            {% endif %}
-          {% endfor %}
         </ul>
       </section>
-  </div>
-{% endblock %}
+
+      <h1 class="logo text-red-900 mb-2 mt-8">Posts</h1>
+
+      <section class="text-sm">
+        <ul>
+          {% for post in collections.blog | reverse %}
+            {% if post.data.pin !== true %}
+              <li class="mb-2">
+                <span class="text-gray-500 mr-2">{% formatDate post.date %}</span>
+
+                <a href="{{ post.url }}">{{ post.data.title }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+
+      <div class="my-24">
+        {% include "footer.njk" %}
+      </div>
+
+    {% endblock %}
