@@ -28,5 +28,16 @@ module.exports = (eleventyConfig) => {
     }
   })
 
+  const markdownIt = require("markdown-it");
+  const options = {
+    html: true
+  }
+  const markdownItLib = markdownIt(options).use(require('markdown-it-anchor')).use(require('markdown-it-table-of-contents'), {
+    includeLevel: [1, 2, 3, 4],
+    containerHeaderHtml: `<div class="toc-container-header">索引</div>`
+  })
+
+  eleventyConfig.setLibrary('md', markdownItLib)
+
   eleventyConfig.addPlugin(pluginRss);
 }

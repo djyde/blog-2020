@@ -11,12 +11,17 @@
 {% block body %}
   <div class="main-container mx-auto pt-12">
     {% include "header.njk" %}
-    <div class="mb-12">
-      <h2 class="text-lg tracking-wide text-gray-900 font-bold">{{ title }}</h2>
-      <h3 class="text-gray-500">{% formatDate date %}</h3>
+    <div class="mb-4 mt-12 font-sans">
+      <h2 class="text-4xl tracking-wide text-gray-900 font-bold">{{ title }}</h2>
+      <h3 class="text-gray-500 text-xs font-light">{% formatDate date %}</h3>
     </div>
     <div class="blog-post">
       {{ content | safe }}
+    </div>
+
+    <div class="mt-16">
+      <img class="mx-auto w-16" src="https://gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80"/>
+
     </div>
   </div>
 

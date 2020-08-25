@@ -7,6 +7,8 @@ categories:
   - Life
 ---
 
+[[toc]]
+
 在使用 11' Macbook Air 整整两年后的今天换上了 13' Macbook Pro. 我从零开始重新搭配了我的开发环境和日常使用频率很高的工具，在这里跟大家分享一下。也借这个机会给刚开始接触 macOS 的朋友一个参考。
 
 ### Google Chrome

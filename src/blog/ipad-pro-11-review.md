@@ -7,6 +7,9 @@ categories:
   - Reviews
 cover: https://gbstatic.djyde.com/FullSizeRender.jpg?x-oss-process=style/cover
 ---
+
+[[toc]]
+
 ![](https://gbstatic.djyde.com/DSC02308.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
 这次入手 iPad Pro 完全是个意外，原本的计划是入手新款 iPad mini 更新一下我用了三年的 iPad mini 2. 后来想一想，不如用 24 期免息直接入手 iPad Pro. 
@@ -70,7 +73,7 @@ K380 很适合对便携性有要求的用户，重量轻，支持 3 个设备一
 
 ![](https://gbstatic.djyde.com/DSC02391.JPG?x-oss-process=image/resize,w_2560/quality,q_80)
 
-# 总结
+## 总结
 
 因为配置高和屏幕大，iPad Pro 可以做的比原本 iPad mini 多得多 —— 处理照片、浏览网页、用 Apple Pencil 做笔记（当然现在新款 iPad mini 也支持 Apple Pencil 一代）。
 
@@ -80,7 +83,7 @@ K380 很适合对便携性有要求的用户，重量轻，支持 3 个设备一
 
 对于程序员群体，iPad Pro 是一个可有可无的设备。而对于那些主要以文字录入、图片处理、手写笔记为主要任务的群体，那么 iPad Pro 还是很值得入手的。
 
-### 相关链接
+## 相关链接
 
 - [iPad Pro 支架](https://lutaonan.com/link/ipad-stand)
 - [罗技 k380 蓝牙键盘](https://lutaonan.com/link/logitech-k380)

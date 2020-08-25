@@ -3,6 +3,9 @@ console.log(process.env.PURGE)
 module.exports = {
   plugins: [
     require('autoprefixer'),
+    require('postcss-preset-env')({
+      stage: 1
+    }),
     require('tailwindcss')({
       purge: [
         './src/**/*.njk',

@@ -7,6 +7,8 @@ categories:
   - Coding
 ---
 
+[[toc]]
+
 **转载前请务必先联系邮箱**
 
 最近在把 SISE Game（我们学校的校内游戏直播网站） 从原本的 Ruby on Rails 彻底用 Node.js 重写，  经过一些考虑，决定用 Vue.js 和 Express.js 实现前后端分离的架构，在这几天的重写过程中，积累了对 Webpack 和 Vue.js 的一些新的看法。

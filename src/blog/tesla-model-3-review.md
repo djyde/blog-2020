@@ -6,6 +6,9 @@ tags: blog
 date: 2020-06-22
 image: https://gbstatic.djyde.com/uPic/biUOv6.JPG?x-oss-process=style/80
 ---
+
+[[toc]]
+
 ![题图-特斯拉侧脸](https://gbstatic.djyde.com/uPic/biUOv6.JPG?x-oss-process=style/80)
 
 2020 年 1 月份我下订了标准续航的 Model 3, 因为工作原因一直拖着没有提车，4 月底突然出了国产长续航，于是把订单转成了长续航版本，苦等两个月，终于在 6 月份提到了这台中国制造特斯拉 Model 3.

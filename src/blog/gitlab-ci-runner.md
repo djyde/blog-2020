@@ -6,6 +6,9 @@ categories:
   - Coding
 date: 2017-04-20
 ---
+
+[[toc]]
+
 > 假定你已经有一台可用的，可联网的机器
 
 ## Preface
