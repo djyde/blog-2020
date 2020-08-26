@@ -7,7 +7,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setTemplateFormats([
     'css',
     'md',
-    'njk'
+    'njk',
+    'ico',
   ])
 
   eleventyConfig.addPlugin(pluginSEO, {
@@ -40,4 +41,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setLibrary('md', markdownItLib)
 
   eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addPassthroughCopy("_redirects");
 }
