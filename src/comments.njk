@@ -1,0 +1,40 @@
+---
+title: 公共留言
+---
+
+{% extends "layout.njk" %}
+
+{% block head %}
+  {% seo "" %}
+
+{% endblock %}
+
+{% block body %}
+
+  <div class='main-container mx-auto pt-12'>
+    {% include "header.njk" %}
+
+    <div class="blog-post mt-8">
+      <h5 class="text-red-900 font-bold mb-4">公共留言</h5>
+      <p>你可以在这里留下任何你想要表达的内容。提问、感谢、批评都欢迎。</p>
+      <p>留言只有通过我的筛选才会显示，您留下的内容可以是：</p>
+      <ul>
+        <li>读完本博客后想要说的话</li>
+        <li>想对同样在读本博客的读者说的话</li>
+        <li>对本博客观点的有理反驳</li>
+        <li>您的真诚感谢（如果有）</li>
+      </ul>
+
+      <p>如果仅想对某篇文章发表观点，可以直接在文章下方评论。</p>
+
+    </div>
+
+    <div id="disqus_thread" class="mt-8"></div>
+
+  </div>
+  <hr class="my-8"/>
+  {% include "footer.njk" %}
+
+  {% include "disqus.njk" %}
+
+{% endblock %}
