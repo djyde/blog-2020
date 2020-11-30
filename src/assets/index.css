@@ -894,6 +894,10 @@ html {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.operator {
+  background: none !important;
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -1052,6 +1056,10 @@ iframe {
 .table-of-contents .toc-container-header {
   margin-bottom: 1rem;
   font-weight: 700;
+}
+
+.table-of-contents ul {
+  margin-top: 0.5rem
 }
 
 .table-of-contents ul a::after {
