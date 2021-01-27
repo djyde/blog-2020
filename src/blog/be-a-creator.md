@@ -1,7 +1,7 @@
 ---
 title: 做这个世界的生产者
 layout: blog.njk
-date: 2021--01-27
+date: 2021-01-27
 tags: blog
 ---
 
