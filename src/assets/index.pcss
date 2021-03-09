@@ -19,7 +19,7 @@ html {
 }
 
 p {
-  @apply mb-4;
+  @apply my-4;
 }
 
 .blog-post h1, h2, h3, h4 {
@@ -34,11 +34,11 @@ p {
   }
 
   & h2 {
-    @apply text-3xl
+    @apply text-2xl
   }
 
   & h3 {
-    @apply text-2xl
+    @apply text-xl
   }
 
   & h4 {
@@ -59,6 +59,10 @@ p {
 
   & iframe {
     @apply mb-4;
+  }
+
+  & code {
+    @apply bg-gray-300 text-sm;
   }
 }
 
@@ -101,12 +105,15 @@ iframe {
 
 .main-container {
   @apply px-4 w-full;
-
 }
 
 @screen sm {
   .main-container {
     @apply px-0 w-144;
+  }
+
+  .main-container.wide {
+    @apply px-0 w-1/2;
   }
 }
 

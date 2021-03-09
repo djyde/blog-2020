@@ -31,6 +31,7 @@ module.exports = (eleventyConfig) => {
 
   const markdownIt = require("markdown-it");
   const options = {
+    linkify: true,
     html: true
   }
   const markdownItLib = markdownIt(options).use(require('markdown-it-anchor')).use(require('markdown-it-table-of-contents'), {

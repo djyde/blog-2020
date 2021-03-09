@@ -1,0 +1,46 @@
+{% extends "layout.njk" %}
+{% block head %}
+  {% seo "" %}
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/prismjs@1.21.0,npm/prismjs@1.21.0/components/prism-javascript.min.js,npm/prismjs@1.21.0/components/prism-typescript.min.js,npm/prismjs@1.21.0/components/prism-bash.min.js,npm/prismjs@1.21.0/components/prism-sql.min.js,npm/prismjs@1.21.0/components/prism-diff.min.js,npm/prismjs@1.21.0/components/prism-tsx.min.js,npm/prismjs@1.21.0/components/prism-jsx.min.js,npm/prismjs@1.21.0/components/prism-json.min.js"></script>
+
+    <link href="/assets/material.css" rel="stylesheet">
+
+{% endblock %}
+
+{% block body %}
+  <div class="main-container wide mx-auto pt-12">
+    {% include "header.njk" %}
+    <div class="mb-4 mt-12 font-sans">
+      <h2 class="text-4xl tracking-wide text-gray-900 font-bold">{{ title }}</h2>
+      <h3 class="text-gray-500 text-xs font-light">{% formatDate date %}</h3>
+    </div>
+    <div class="blog-post">
+      {{ content | safe }}
+    </div>
+
+    <div class="mt-16">
+      <img class="mx-auto w-16" src="https://gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80"/>
+
+    </div>
+
+    <div id="disqus_thread" class="mt-8"></div>
+
+  </div>
+
+  <hr class="my-16"/>
+
+  <div class="text-center text-sm">
+    <p>讨论请发邮件到 randypriv@gmail.com</p>
+    <p>未经授权，禁止转载</p>
+    <p>通过支付宝 djyde520@gmail.com 或赞赏码赞助此文</p>
+
+    <img class="inline-block w-64 mt-4" src="https://gbstatic.djyde.com/assets/006tKfTcgy1fkuufy2cadj30w00w0tb2.jpg"/>
+  </div>
+
+  {% include "footer.njk" %}
+
+  
+  {% include "disqus.njk" %}
+
+{% endblock %}
