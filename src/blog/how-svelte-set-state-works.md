@@ -3,6 +3,7 @@ title: Svelte 的异步更新实现原理
 layout: tech-blog.njk
 tags: blog
 date: 2021-04-11
+pin: true
 ---
 
 在 [我对 Svelte 的看法](/blog/svelte) 一文里，我分析了 Svelte 在编译时实现 Reactive 的原理。在这篇文章，我将分析在 Svelte 里更新一个状态 (state) 值后更新到 UI 的这一过程。
