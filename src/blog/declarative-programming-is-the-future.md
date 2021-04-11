@@ -100,7 +100,7 @@ assert.deepEqual(
 
 DSL 是最常见的声明式编程形式。我一直在布道 GraphQL, 因为它把网络请求变得声明式了：
 
-```gql
+```
 query {
 	posts {
 		id, title, content

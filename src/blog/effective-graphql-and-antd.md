@@ -37,7 +37,7 @@ const posts = await fetch('/api/v1/posts')
 
 而使用 GraphQL, 是声明式地查询：
 
-```gql
+```
 query {
   posts {
   	title, body, id
@@ -53,7 +53,7 @@ const response = await fetch('/api/v1/posts', { method: 'POST', body: { title: "
 
 使用 GraphQL, 声明式地触发 mutation:
 
-```gql
+```
 mutation {
   createPost(post: { title: "foo", body: "content" })
 }
