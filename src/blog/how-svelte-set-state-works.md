@@ -36,7 +36,7 @@ setCount(2) //=> update ui with count: 2
 setCount(3) //=> update ui with count: 3
 ```
 
-这样实现很简单，但是有一个严重的问题：连续的状态更新会连续触发 `updateUI`, 性能会非常糟糕。解决这个问题的方法是：把同一个事件循环里的所有状态更新造成的 UI 更新统一合并（batch）到下一个事件循环里统一执行。做法很简单：**把 `updateUI` 放到一个 microtask 里就行。**
+这样实现很简单，但是有一个严重的问题：连续的状态更新会连续触发 `updateUI`, 性能会非常糟糕。解决这个问题的方法是：**把同一个事件循环里的所有状态更新造成的 UI 更新统一合并（batch）到一个 microtask 里统一执行。**
 
 ```js
 // 基于 Promise 实现一个把函数放到 microtask 里的函数
@@ -98,9 +98,9 @@ setCount(3)
 console.log(h1.innerHTML) //=> 0
 ```
 
-在 `setCount(3)` 后， `h1.innerHTML` 竟不是预期中的 3. 仔细一想，当然了，`updateUI` 是在下一个事件循环才触发的啊。
+在 `setCount(3)` 后， `h1.innerHTML` 竟不是预期中的 3. 仔细一想，当然了，`updateUI` 是在同步代码执行完后，开始执行 microtask 队列的时候才触发的啊。
 
-为了可以在 `setCount` 后拿到更新后正确的值，我们可以把关于 UI 的操作也放到下一个事件循环才执行。为了方便，我们可以写一个 `tick` 函数：
+为了可以在 `setCount` 后拿到更新后正确的值，我们可以把关于 UI 的操作也放到下一个 microtask 才执行。为了方便，我们可以写一个 `tick` 函数：
 
 ```js
 function tick() {
@@ -198,7 +198,7 @@ function instance($$self, $$props, $$invalidate) {
 
 ```
 
-不要感到害怕，一个 Svelte Fragment 实际上是一个函数返回几个必要的方法：
+不要被吓到，一个 Svelte Fragment 实际上是一个函数返回几个必要的方法：
 
 ```js
 function createFragment(ctx) {
@@ -221,7 +221,4 @@ function createFragment(ctx) {
 
 1. 用户点击 button, 触发 `$$invalidate(0, count--, count)`
 2. 触发 `schedule_update()`, 通知框架这个 fragment 需要被更新（`make_dirty()`），框架会维护一个 `dirty_components` 的数组
-3. 事件循环结束后，触发更新（`flush`），遍历 `dirty_components`, 触发每一个 component 的 `p()`
-
-
-
+3. 同步代码执行完后，开始执行 microtask, 触发更新（`flush`），遍历 `dirty_components`, 触发每一个 component 的 `p()`
