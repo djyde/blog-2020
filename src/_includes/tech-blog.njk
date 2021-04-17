@@ -4,7 +4,7 @@
 
   {# <script src="https://cdn.jsdelivr.net/combine/npm/prismjs@1.21.0,npm/prismjs@1.21.0/components/prism-javascript.min.js,npm/prismjs@1.21.0/components/prism-typescript.min.js,npm/prismjs@1.21.0/components/prism-bash.min.js,npm/prismjs@1.21.0/components/prism-sql.min.js,npm/prismjs@1.21.0/components/prism-diff.min.js,npm/prismjs@1.21.0/components/prism-tsx.min.js,npm/prismjs@1.21.0/components/prism-jsx.min.js,npm/prismjs@1.21.0/components/prism-json.min.js"></script> #}
 
-    <link href="/assets/material.css" rel="stylesheet">
+  <link href="/assets/material.css" rel="stylesheet">
 
 {% endblock %}
 
@@ -24,7 +24,7 @@
 
     </div>
 
-    <div id="disqus_thread" class="mt-8"></div>
+    {% include "cusdis.njk" %}
 
   </div>
 
@@ -39,8 +39,5 @@
   </div>
 
   {% include "footer.njk" %}
-
-  
-  {% include "disqus.njk" %}
 
 {% endblock %}
