@@ -8,7 +8,9 @@ date: 2021-05-12
 
 Babel 官方最近[发布了一篇博客](https://babeljs.io/blog/2021/05/10/funding-update) 称 Babel 团队的 funding 已经不够了。一直以来我零碎地捐赠过一些开源项目和个人，在卖贴纸和 T 恤的时候也把大部分的利润捐赠给了 Vue. Babel 这件事让我有了固定每月捐赠一些开源项目的想法。
 
-目前设定的是每月**至少** $20 (约 130 多元人民币) 的预算，这样平均至少可以捐赠 4 个不同的项目。我个人会选择一些这样的项目进行捐赠：
+目前设定的是每月**至少** $20 (约 130 多元人民币) 的预算，这样平均至少可以捐赠 4 个不同的项目。我可以在这个预算内根据我的技术栈灵活地选择我对哪些项目进行捐赠。
+
+我个人会选择一些这样的项目进行捐赠：
 
 - 我在做 side-project 的时候经常会用的项目
 - 项目没有融资背景（例如我非常喜欢 [Prisma](https://prisma.io), 可是它已经有了 $12M 的 A 轮融资）
@@ -24,8 +26,6 @@ Babel 官方最近[发布了一篇博客](https://babeljs.io/blog/2021/05/10/fun
 - [Logseq](https://opencollective.com/logseq) 开源的 Roam Research alternative
 
 你可以在 [OpenCollective](https://opencollective.com/randyloop) 和 [GitHub Sponsor](https://github.com/djyde?tab=sponsoring) 看到我对哪些项目和个人进行了捐赠。
-
-> 捐赠的项目会根据我使用的技术栈的变化而变化。
 
 ## 国内用户捐赠的方法
 
