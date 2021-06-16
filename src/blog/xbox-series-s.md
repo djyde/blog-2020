@@ -61,6 +61,8 @@ cover: https://gbstatic.djyde.com/uPic/zFrljF.jpg?x-oss-process=style/80
 
 ![手柄](https://gbstatic.djyde.com/uPic/m0zM0t.jpg?x-oss-process=style/80)
 
+另外，这台机器完全没有声音（或许是我玩的游戏不够硬核？），比我的 NAS 还安静。
+
 ## 存储空间
 
 相信除了性能之外，Xbox Series S 最让人难以下手的应该是存储空间 —— 它只有 500G 的 SSD. 这是什么概念呢，以下是我玩的一些游戏和它们的体积：
