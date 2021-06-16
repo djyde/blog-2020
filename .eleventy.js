@@ -70,4 +70,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPassthroughCopy("_redirects");
+  eleventyConfig.addPassthroughCopy("src/assets/index.css");
+
 }
