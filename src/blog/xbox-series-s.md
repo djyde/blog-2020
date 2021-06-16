@@ -94,7 +94,7 @@ cover: https://gbstatic.djyde.com/uPic/zFrljF.jpg?x-oss-process=style/80
 
 ![](https://gbstatic.djyde.com/uPic/6UoJOk.jpg?x-oss-process=style/80)
 
-而且神奇的是，在储存在外部存储的游戏，是可以直接启动的。根据我的测试，我玩的游戏在外部存储和内部存储启动的情况下，没有感觉到运行速度有什么区别。而且 Quick Resume 的功能也同样能用。这个 300 块钱的移动硬盘为我的 Xbox 扩充了 1TB 的存储。
+而且神奇的是，储存在外部存储的游戏，是可以直接启动的。根据我的测试，我玩的游戏在外部存储和内部存储启动的情况下，没有感觉到运行速度有什么区别。而且 Quick Resume 的功能也同样能用。这个 300 块钱的移动硬盘为我的 Xbox 扩充了 1TB 的存储。
 
 ## 总结
 
