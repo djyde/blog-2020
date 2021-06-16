@@ -2,7 +2,8 @@
 title: 读《蒂姆·库克传》
 layout: blog.njk
 date: 2021-03-14
-tags: blog
+cover: https://gbstatic.djyde.com/uPic/pDU4F3.jpg?x-oss-process=style/80
+tags: book
 ---
 
 ![书封面](https://gbstatic.djyde.com/uPic/wd1YKt.jpg?x-oss-process=style/80)

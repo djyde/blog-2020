@@ -1,7 +1,7 @@
 ---
 title: 11 寸 iPad Pro 体验
 layout: blog.njk
-tags: blog
+tags: review
 date: 2019-04-06
 categories:
   - Reviews

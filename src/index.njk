@@ -1,69 +1,111 @@
 {% extends "layout.njk" %}
-
+{% import "macros.njk" as macros %}
 {% block head %}
-{% seo "" %}
+  {% seo "" %}
 
 {% endblock %}
 
 {% block body %}
-  <div class="main-container mx-auto pt-12">
-    {% include "header.njk" %}
-    {# <img class="w-24" src="//gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80"/> #}
 
-    <section>
-      <div  class="w-32 h-32 mx-auto rounded-full bg-cover bg-center mt-8" style="background-image: url(https://gbstatic.djyde.com/assets/IMG_9051.JPG?x-oss-process=style%2F80)"}}></div>
+  <div class="p-8 md:p-24">
+    <h1 class="logo text-4xl text-red-700 font-bold">Randy's Blog</h1>
+
+    <div  class="w-32 h-32 rounded-full bg-cover bg-center mt-8" style="background-image: url(https://gbstatic.djyde.com/assets/IMG_9051.JPG?x-oss-process=style%2F80)"}}></div>
+
+    <div class="blog-post mt-12">
+      {% include "intro.njk" %}
+    </div>
+
+    <div class="mt-24 grid lg:grid-cols-2 gap-2">
       <div>
-        <img class="mx-auto w-16" src="https://gbstatic.djyde.com/sign_square_white.png?x-oss-process=style/80"/>
-      </div>
-    </section>
-
-    <section class='text-sm leading-relaxed mb-8 blog-post'>
-      <p>我叫卢涛南 (Randy Lu), 1995 年出生于广东中山。好编程，阅读，音乐，写作以及一切创造类活动。 2008 年起<a href="/blog/my-coding-road">学习编程至今</a>。</p>
-
-      <p>2014 年参加高考，录取「广州大学华软软件学院」，本科一年后<a href="/blog/one-year-after-dropping-out-of-school">退学</a>。曾在奇志科技、阿里巴巴、蚂蚁金服工作。</p>
-
-      <p>小时候的理想是成为一名程序员，用技术改变世界。现在的理想是用技术创造价值 —— 做出有人觉得好用的产品或服务，并愿意为之付费。未来的妄想是参与推动中国的民主化建设。如果人生可以选择，我希望我可以在一个法治国家参选议员从事政治，业余写代码和做音乐。</p>
-
-      <p>做这个博客的原因是我喜欢写作和思考，我希望把我的思考和经验分享给所有人。你也可以<a href="https://t.me/randyloop">订阅我的 Telegram 频道</a>。</p>
-
-      <p>你可以免费阅读本博客的所有内容，也欢迎你通过不同的渠道进行赞赏。最简单的赞赏方式是发送一封感谢信到我的 Email. 也可以自愿对我的内容付费，在每篇文章的下方都有付款方式。</p>
-
-    </section>
-
-    <h1 class="logo text-red-900 mb-2">Featuring</h1>
-
-    <section class="text-sm">
-      <ul>
-        {% for post in collections.blog | reverse %}
-          {% if post.data.pin %}
-            <li class="mb-2">
-              <span class="text-gray-500 mr-2">{% formatDate post.date %}</span>
-              <a href="{{ post.url }}">{{ post.data.title }}</a>
-            </li>
+        <h1 class="my-4 text-4xl logo text-red-700">Featuring</h1>
+        <div>
+          {% for post in collections.blog | reverse %}
+            {% if post.data.pin === true %}
+              <div class="mb-2">
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+                {# <span class="text-gray-500 ml-2">({% formatDate post.date %})</span> #}
+              </div>
             {% endif %}
           {% endfor %}
-        </ul>
-      </section>
-
-      <h1 class="logo text-red-900 mb-2 mt-8">Posts</h1>
-
-      <section class="text-sm">
-        <ul>
-          {% for post in collections.blog | reverse %}
-            {% if post.data.pin !== true %}
-              <li class="mb-2">
-                <span class="text-gray-500 mr-2">{% formatDate post.date %}</span>
-
-                <a href="{{ post.url }}">{{ post.data.title }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </section>
+        </div>
       </div>
 
-      <div class="my-24">
-        {% include "footer.njk" %}
+      <div>
+        <h1 class="my-4 text-4xl logo text-red-700">Posts</h1>
+
+        {% for post in collections.blog | reverse %}
+          {% if post.data.pin !== true %}
+            <div class="mb-2">
+              <a href="{{ post.url }}">{{ post.data.title }}</a>
+              {# <span class="text-gray-500 ml-2">({% formatDate post.date %})</span> #}
+            </div>
+          {% endif %}
+        {% endfor %}
       </div>
 
-    {% endblock %}
+    </div>
+
+    <div class="mt-24">
+      <h1 class="my-4 text-4xl logo text-red-700">Writings</h1>
+      <div class="text-2xl mb-2">
+        <a href="https://nextjs-in-action-cn.taonan.lu/">《Next.js 应用开发实践》</a>
+      </div>
+
+      <div class="grid grid-cols-3"></div>
+    </div>
+
+    <div class="mt-24">
+      <h1 class="my-4 text-4xl text-red-700 logo">Reading</h1>
+      <div class="md:flex">
+        {% for post in collections.book | reverse %}
+          <div class="mb-2 flex flex-col justify-end mr-4">
+            <img class="w-24 mb-2" src="{{post.data.cover}}"/>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            {# <span class="text-gray-500 ml-2">({% formatDate post.date %})</span> #}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="mt-24">
+      <h1 class="my-4 text-4xl text-red-700 logo">In Public</h1>
+      <ul class="list-disc">
+        <li>
+          <a class="link" href="https://binary.2bab.me/episodes/008-enlightenment-n-self-innovation">二分电台: #8 编程启蒙/从社区学习/个人竞争力</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mt-24">
+      <h1 class="my-4 text-4xl logo text-red-700">Music Production</h1>
+      <div class="text-2xl mb-2">
+        <a href="https://lutaonan.com/go/bilibili">Bilibili</a>
+      </div>
+      <div class="text-2xl">
+        <a href="https://lutaonan.com/go/youtube">YouTube</a>
+      </div>
+
+      <div class="grid grid-cols-3"></div>
+    </div>
+
+    <div class="mt-24">
+      <h1 class="my-4 text-4xl logo text-red-700">Review</h1>
+      <div class="lg:flex flex-wrap">
+        {% for post in collections.review | reverse %}
+          <div class="mb-2 flex flex-1 flex-col justify-end mr-4">
+            <div class="rounded w-128 h-64 bg-cover mb-2 bg-center" style="background-image: url({{post.data.cover}});"></div>
+            {# <img class="w-full mb-2" src="{{post.data.cover}}"/> #}
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+            {# <span class="text-gray-500 ml-2">({% formatDate post.date %})</span> #}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="my-24">
+    {% include "footer.njk" %}
+  </div>
+
+{% endblock %}

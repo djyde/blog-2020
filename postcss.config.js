@@ -1,6 +1,5 @@
-console.log(process.env.PURGE)
-
 module.exports = {
+  darkMode: 'class',
   plugins: [
     require('autoprefixer'),
     require('postcss-preset-env')({
