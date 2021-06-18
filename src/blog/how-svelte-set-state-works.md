@@ -41,7 +41,7 @@ setCount(3) //=> update ui with count: 3
 ```js
 // 基于 Promise 实现一个把函数放到 microtask 里的函数
 function createMicroTask(fn) {
-  Promise.resovle().then(fn);
+  Promise.resolve().then(fn);
 }
 
 let updateScheduled = false;
