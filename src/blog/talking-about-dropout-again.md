@@ -20,7 +20,7 @@ pin: true
 
 ![](https://gbstatic.djyde.com/uPic/OX8DpQ.png?x-oss-process=style/80)
 
-但很遗憾，情绪问题是个复杂的问题。我不能说是辍学是我情绪病的来源，但他在其中参与了很大的比重。而且这种比重是随着时间的流逝线性增长的。在最严重的时候，我甚至完全无法沉下心做我这辈子最热爱的东西 —— 写代码。说出来有点好笑，我甚至会因为在面试的时候分不清 JavaScript 里 class A extends class B 中，A.prototype 和 B.prototype 的关系而陷入严重的自我怀疑。
+但很遗憾，情绪问题是个复杂的问题。我不能说辍学是我情绪病的来源，但他在其中参与了很大的比重。而且这种比重是随着时间的流逝线性增长的。在最严重的时候，我甚至完全无法沉下心做我这辈子最热爱的东西 —— 写代码。说出来有点好笑，我甚至会因为在面试的时候分不清 JavaScript 里 class A extends class B 中，A.prototype 和 B.prototype 的关系而陷入严重的自我怀疑。
 
 ![](https://gbstatic.djyde.com/uPic/W8ydFt.png?x-oss-process=style/80)
 
